@@ -4,6 +4,7 @@ site_name: Git@HOGENT gebruikersgids
 site_url: "https://hogenttin.github.io/git-hogent-gids/"
 repo_name: "HoGentTIN/git-hogent-gids/"
 repo_url: "https://github.com/HoGentTIN/git-hogent-gids/"
+edit_uri: edit/main/docs/
 
 # Navigation
 nav:
@@ -52,12 +53,16 @@ theme:
     - navigation.expand
     - content.code.copy
     - content.code.select
+    - content.action.edit
   favicon: "https://www.hogent.be/themes/hogent/images/ico/favicon.ico"
   logo: "https://img.icons8.com/ios-filled/2x/ffffff/github.png"
   font:
     text: "Montserrat"
     code: "Inconsolata"
   language: "nl"
+  icon:
+    edit: material/pencil 
+    view: material/eye
 
 extra_css:
   - stylesheets/extra.css
