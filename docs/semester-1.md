@@ -104,4 +104,4 @@ Als de code op de repository is aangepast, kan je de lokale kopie updaten met de
 > git pull
 ```
 
-Let op: in deze opstelling is het niet de bedoeling dat je wijzigingen aanbreng aan de code in de repository. Kopieer bestanden die je wilt wijzigen naar een andere directory buiten de repository.
+Let op: in deze opstelling is het niet de bedoeling dat je wijzigingen aanbrengt aan de code in de repository. Kopieer bestanden die je wilt wijzigen naar een andere directory buiten de repository.
