@@ -18,6 +18,7 @@ nav:
   - "3TI":
     - "Semester 5": "semester-5.md"
     - "Semester 6": "semester-6.md"
+  - "Achtergrondinfo": "achtergrondinfo.md"
 
 markdown_extensions:
   - pymdownx.tabbed:
