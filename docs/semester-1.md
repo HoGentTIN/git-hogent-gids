@@ -60,10 +60,12 @@ Op elk toestel waar je gebruik maakt van Git (later ook binnen virtuele machines
 > git config --global user.name "VOORNAAM ACHTERNAAM"
 > git config --global user.email "VOORNAAM.ACHTERNAAM@student.hogent.be"
 > git config --global push.default simple
-> git config --global core.autocrlf input
+> git config --global core.autocrlf true   # <- Windows
+> git config --global core.autocrlf input  # <- macOS/Linux
 > git config --global init.defaultBranch main
 > git config --global pull.rebase true
 > git config --global rebase.autoStash true
+> git config --global core.ignorecase false
 ```
 
 ## Een Github-account aanmaken
