@@ -12,6 +12,7 @@ nav:
   - "Installatie en configuratie": "installatie-config.md"
   - "Github-account": "github-account.md"
   - "Read-only repository": "readonly-repo.md"
+  - "Merge vs rebase": "merge-rebase.md"
   - "Achtergrondinfo": "achtergrondinfo.md"
 
 markdown_extensions:

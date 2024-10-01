@@ -16,6 +16,8 @@ Hieronder vind je een opsomming van onderwerpen die we willen behandelen, onderv
 
 ## Semester 3 (MT2, semester 1)
 
+- [Merge vs rebase](./merge-rebase.md)
+
 ## Semester 4 (MT2, semester 2)
 
 ## Semester 5 (MT2, semester 3)
