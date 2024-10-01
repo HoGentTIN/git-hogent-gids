@@ -1,6 +1,6 @@
 # Merge vs rebase
 
-Wanneer je met meerdere personen samenwerkt aan dezelfde codebase, zul je de wijzigingen van anderen moeten integreren in je eigen werk. Meestal worden hiervoor zogenaamde "merge commits" gebruikt. Het probleem hiermee is dat hierdoor de historiek van de repository dan al snel ingewikkeld wordt. Een alternatief is om de wijzigingen van anderen te "rebasen" op jouw werk. Dit zorgt voor een veel eenvoudigere historiek, maar vraagt een zekere discipline.
+Wanneer je met meerdere personen samenwerkt aan dezelfde codebase, zul je de wijzigingen van anderen moeten integreren in je eigen werk. Meestal worden hiervoor zogenaamde "merge commits" gebruikt. Het probleem hiermee is dat hierdoor de historiek van de repository dan al snel ingewikkeld wordt. Een alternatief is om jouw werk te "rebasen" op de wijzigingen van anderen. Dit zorgt voor een veel eenvoudigere historiek, maar vraagt een zekere discipline.
 
 Hieronder tonen we het verschil en hoe je een *rebase* uitvoert.
 
