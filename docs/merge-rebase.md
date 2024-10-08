@@ -2,11 +2,11 @@
 
 Wanneer je met meerdere personen samenwerkt aan dezelfde codebase, zul je de wijzigingen van anderen moeten integreren in je eigen werk. Meestal worden hiervoor zogenaamde "merge commits" gebruikt. Het probleem hiermee is dat hierdoor de historiek van de repository dan al snel ingewikkeld wordt. Een alternatief is om jouw werk te "rebasen" op de wijzigingen van anderen. Dit zorgt voor een veel eenvoudigere historiek, maar vraagt een zekere discipline.
 
-Hieronder tonen we het verschil en hoe je een *rebase* uitvoert.
+Hieronder tonen we het verschil en hoe je een _rebase_ uitvoert.
 
 ## Merge
 
-Stel, Alice en Bob werken samen aan een project, en hebben elk een kloon gemaakt van de branch `main` op de Github-repository van hun team.
+Stel, Alice en Bob werken samen aan een project, en hebben elk een kloon gemaakt van de branch `main` op de GitHub-repository van hun team.
 
 ```mermaid
 gitGraph
@@ -52,7 +52,7 @@ gitGraph
     commit id: "a2-3b1b3f4"
 ```
 
-Als Bob een push naar Github wil doen, zal deze uiteraard geweigerd worden. Hij moet eerst de commits van Alice integreren in zijn lokale kopie. Bij een `git pull` zal Git een merge commit maken, d.w.z. een commit die de wijzigingen van Alice en Bob samenbrengt:
+Als Bob een push naar GitHub wil doen, zal deze uiteraard geweigerd worden. Hij moet eerst de commits van Alice integreren in zijn lokale kopie. Bij een `git pull` zal Git een merge commit maken, d.w.z. een commit die de wijzigingen van Alice en Bob samenbrengt:
 
 ```mermaid
 gitGraph
@@ -68,11 +68,11 @@ gitGraph
     merge main id: "b3-0bad108"
 ```
 
-Na het eventueel oplossen van merge-conflicten kan Bob nu zijn werk naar Github pushen, maar de historiek is nu wel wat ingewikkeld. Wanneer je ook met meerdere mensen samenwerkt (die bv. ook nog eens andere combinaties van commits moeten mergen), kan dit al snel onoverzichtelijk worden.
+Na het eventueel oplossen van merge-conflicten kan Bob nu zijn werk naar GitHub pushen, maar de historiek is nu wel wat ingewikkeld. Wanneer je ook met meerdere mensen samenwerkt (die bv. ook nog eens andere combinaties van commits moeten mergen), kan dit al snel onoverzichtelijk worden.
 
 ## Rebase
 
-Een alternatief is dat Bob eerst de commits van Alice binnen haalt, en dan zijn eigen commits achteraan in de historiek toevoegt. Dit heet een *rebase*.
+Een alternatief is dat Bob eerst de commits van Alice binnen haalt, en dan zijn eigen commits achteraan in de historiek toevoegt. Dit heet een _rebase_.
 
 ```mermaid
 gitGraph
@@ -85,7 +85,7 @@ gitGraph
         commit id: "b2-a1069a3"
 ```
 
-Merk op dat de commit hashes van Bob nu veranderd zijn omdat de commits van Alice er nu voor staan. Dit is normaal bij een rebase. Bob kan nu zijn werk naar Github pushen, en de historiek is veel eenvoudiger:
+Merk op dat de commit hashes van Bob nu veranderd zijn omdat de commits van Alice er nu voor staan. Dit is normaal bij een rebase. Bob kan nu zijn werk naar GitHub pushen, en de historiek is veel eenvoudiger:
 
 ```mermaid
 gitGraph

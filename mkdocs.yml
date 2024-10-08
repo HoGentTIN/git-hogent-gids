@@ -10,9 +10,10 @@ edit_uri: edit/main/docs/
 nav:
   - "Inhoud": "index.md"
   - "Installatie en configuratie": "installatie-config.md"
-  - "Github-account": "github-account.md"
+  - "GitHub-account": "github-account.md"
   - "Read-only repository": "readonly-repo.md"
   - "SSH-sleutel instellen": "ssh-sleutel-instellen.md"
+  - "Repository clonen": "repo-clonen.md"
   - "Merge vs rebase": "merge-rebase.md"
   - "Achtergrondinfo": "achtergrondinfo.md"
 
