@@ -1,4 +1,4 @@
-# Git, Github gebruikersgids @HOGENT
+# Git, GitHub gebruikersgids @HOGENT
 
 In deze gids willen we alle info verzamelen die je nodig hebt om in de opleiding aan de slag te gaan en effectief gebruik te kunnen maken van Git en Github.
 
@@ -14,6 +14,8 @@ Hieronder vind je een opsomming van onderwerpen die we willen behandelen, onderv
 
 ## Semester 2 (MT1, semester 2)
 
+- [SSH-sleutel instellen](./ssh-sleutel-instellen.md)
+
 ## Semester 3 (MT2, semester 1)
 
 - [Merge vs rebase](./merge-rebase.md)
@@ -23,4 +25,3 @@ Hieronder vind je een opsomming van onderwerpen die we willen behandelen, onderv
 ## Semester 5 (MT2, semester 3)
 
 ## Andere onderwerpen
-
