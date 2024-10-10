@@ -14,6 +14,7 @@ nav:
   - "Read-only repository": "readonly-repo.md"
   - "SSH-sleutel instellen": "ssh-sleutel-instellen.md"
   - "Repository clonen": "repo-clonen.md"
+  - "Wijzigingen binnenhalen": "wijzigingen-binnenhalen.md"
   - "Merge vs rebase": "merge-rebase.md"
   - "Achtergrondinfo": "achtergrondinfo.md"
 

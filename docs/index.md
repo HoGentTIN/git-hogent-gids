@@ -16,6 +16,7 @@ Hieronder vind je een opsomming van onderwerpen die we willen behandelen, onderv
 
 -   [SSH-sleutel instellen](./ssh-sleutel-instellen.md)
 -   [Repository clonen](./repo-clonen.md)
+-   [Wjzigingen binnenhalen](./wijzigingen-binnenhalen.md)
 
 ## Semester 3 (MT2, semester 1)
 
