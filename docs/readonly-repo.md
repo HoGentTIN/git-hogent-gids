@@ -6,7 +6,7 @@ Ga naar de repository op GitHub via de link die je van de lectoren hebt gekregen
 
 ![GitHub repository download](./assets/github-code.png)
 
--   Met download ZIP haal je de laatste revisie van de code binnen als een zip-bestand. Je hebt echter geen historiek en kan latere wijzigingen aand e code op GitHub niet makkelijk bijhouden.
+-   Met download ZIP haal je de laatste revisie van de code binnen als een zip-bestand. Je hebt echter geen historiek en kan latere wijzigingen aan de code op GitHub niet makkelijk bijhouden.
 -   De HTTPS-link kan je gebruiken om de repository lokaal te klonen (d.w.z. een kopie downloaden met de volledige historiek). Hiermee heb je enkel leestoegang tot de repository. Kopieer de URL in het tekstveld.
 -   De SSH-link zal je later leren gebruiken om ook schrijftoegang te krijgen tot een GitHub-repository.
 -   GitHub CLI en GitHub Desktop zijn optionele tools om repositories te beheren, maar hier gaan we niet verder op in.
